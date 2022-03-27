@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <title>audio player</title>
+</head>
+
+<body>
+    <!-- beginning of header section -->
+    <header>
+        <!-- navigation menu -->
+        <nav class="navigation">
+            <!-- site logo and name -->
+            <div class="site-logo">
+                <img src="images/brandlogo.png">
+            </div>
+            <div class="site-name">
+                <p>Raag Mp3</p>
+            </div>
+            <!-- search bar (input , icon , microphone) -->
+            <div class="search">
+                <div id="search-icon">
+                    <label for="search"><i class="fas fa-search"></i></label>
+                </div>
+                <input type="text" name="search-option" id="search" placeholder="search">
+
+                <div id="microphone">
+                    <i class="fas fa-microphone"></i>
+                </div>
+
+            </div>
+            <!-- unordered list of links to various sections of the page -->
+            <ul>
+                <li><a href="#favourites">Favourites</a></li>
+                <li><a href="#latest-releases">Latest Releases</a></li>
+                <li><a href="#popular-artist">Popular Artist</a></li>
+                <li><a href="#radio-station">Radio Stations</a></li>
+                <li><a href="#latest-english">Latest English</a></li>
+                <li><a href="#latest-hindi">Latest Hindi</a></li>
+            </ul>
+            </div>
+            </div>
+            <!-- profile image and user name -->
+            <div class="profile">
+                <img src="images/profile.png">
+                <p>Guest</p>
+            </div>
+
+        </nav>
+        <!-- end of navigation menu -->
+    </header>
+    <!-- end of header section -->
+
+    <!-- beginning of main section -->
+    <main>
+        <!-- crousel -->
+        <div class="crousel">
+            <div id="image-1">
+                <img src="images/crousal.jpg">
+            </div>
+            <div id="image-2">
+                <img src="images/crousal1.jpg">
+            </div>
+            <div id="image-3">
+                <img src="images/crousal2.jpg">
+            </div>
+        </div>
+        <!-- section 1 aside containing various categories of music and artists. -->
+        <article>
+            <aside class="section-1">
+                <!-- latest releases heading and content -->
+                <div class="latest-releases" id="latest-releases">
+                    <div class="section-heading">
+                        <h2>Latest Releases</h2>
+                    </div>
+                    <div class="latest-releases-content">
+                        <!-- song-1 in latest releases content -->
+                        <div class="song" id="song-1">
+
+                            <img src="images/latest1.jpg">
+                            <button><i class="fas fa-play"></i></button>
+                            <div class="latest-releases-details">
+                                <p class="song-name">Manike mage hithe</p>
+                                <p>sep 2021</p>
+                            </div>
+                            <!-- dropdown options in latest releases song 1-->
+                            <div class="latest-releases-dropdown">
+                                <label for="dropdown-1"><i class="fas fa-ellipsis-h"></i></label>
+                                <input type="checkbox" name="drop" id="dropdown-1">
+                                <div class="dropdown-options">
+                                    <ul>
+                                        <li><i class="fas fa-play"></i> Play Now</li>
+                                        <li><i class="fas fa-list-ul"></i> Add To Queue</li>
+                                        <li><i class="fa fa-heart" aria-hidden="true"></i></i> Add to Favourites</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- song-2 in latest releases content -->
+                        <div class="song" id="song-2">
+
+                            <img src="images/latest2.jpg">
+                            <button><i class="fas fa-play"></i></button>
+                            <div class="latest-releases-details">
+                                <p class="song-name">Shiddat</p>
+                                <p>oct 2021</p>
+                            </div>
+                            <!-- dropdown options in latest releases song 2-->
+                            <div class="latest-releases-dropdown">
+                                <label for="dropdown-2"><i class="fas fa-ellipsis-h"></i></label>
+                                <input type="checkbox" name="drop" id="dropdown-2">
+                                <div class="dropdown-options">
+                                    <ul>
+                                        <li><i class="fas fa-play"></i> Play Now</li>
+                                        <li><i class="fas fa-list-ul"></i> Add To Queue</li>
+                                        <li><i class="fa fa-heart" aria-hidden="true"></i> Add to Favourites</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="song" id="song-3">
+                            <!-- song-3 in latest releases content -->
+                            <img src="images/latest5.jpg">
+                            <button><i class="fas fa-play"></i></button>
+                            <div class="latest-releases-details">
+                                <p class="song-name">Suna Hai</p>
+                                <p>nov 2021</p>
+                            </div>
+                            <!-- dropdown options in latest releases song 3-->
+                            <div class="latest-releases-dropdown">
+                                <label for="dropdown-3"><i class="fas fa-ellipsis-h"></i></label>
+                                <input type="checkbox" name="drop" id="dropdown-3">
+                                <div class="dropdown-options">
+                                    <ul>
+                                        <li><i class="fas fa-play"></i> Play Now</li>
+                                        <li><i class="fas fa-list-ul"></i> Add To Queue</li>
+                                        <li><i class="fa fa-heart" aria-hidden="true"></i> Add to Favourites</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- song-4 in latest releases content -->
+                        <div class="song" id="song-4">
+
+                            <img src="images/latest4.jpg">
+                            <button><i class="fas fa-play"></i></button>
+                            <div class="latest-releases-details">
+                                <p class="song-name">Bad Habits</p>
+                                <p>aug 2021</p>
+                            </div>
+                            <!-- dropdown options in latest releases song 4-->
+                            <div class="latest-releases-dropdown">
+                                <label for="dropdown-4"><i class="fas fa-ellipsis-h"></i></label>
+                                <input type="checkbox" name="drop" id="dropdown-4">
+                                <div class="dropdown-options">
+                                    <ul>
+                                        <li><i class="fas fa-play"></i> Play Now</li>
+                                        <li><i class="fas fa-list-ul"></i> Add To Queue</li>
+                                        <li><i class="fa fa-heart" aria-hidden="true"></i> Add to Favourites</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of latest releases section -->
+                <!--  -->
+                <!-- begging of popular artist -->
+
+                <div class="popular-artist" id="popular-artist">
+                    <div class="section-heading">
+                        <h2>Popular Artists</h2>
+                    </div>
+                    <!-- images and names of popular artists -->
+                    <div class="popular-artist-contents">
+                        <!-- artist-1-->
+                        <div class="artist">
+                            <img src="images/popular.jpg">
+                            <p>Selena Gomez</p>
+                        </div>
+                        <!-- artist-2 -->
+                        <div class="artist">
+                            <img src="images/popular1.jpg">
+                            <p>Rita Ora</p>
+                        </div>
+                        <!-- artist-3 -->
+                        <div class="artist">
+                            <img src="images/popular2.jpg">
+                            <p>Arijit Singh</p>
+                        </div>
+                        <!-- artist-4 -->
+                        <div class="artist">
+                            <img src="images/popular3.jpg">
+                            <p>Justin Bieber</p>
+                        </div>
+                        <!-- artist-5-->
+                        <div class="artist">
+                            <img src="images/popular4.jpg">
+                            <p>Ed Sheeren</p>
+                        </div>
+                        <!-- artist-6-->
+                        <div class="artist">
+                            <img src="images/popular5.jpg">
+                            <p>Lata Mangeshkar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end of popular artist content -->
+                <!--  -->
+                <!-- beginning of radio station contents -->
+                <div class="radio-station" id="radio-station">
+                    <div class="section-heading">
+                        <h2>Radio Stations</h2>
+                    </div>
+                    <!-- various genre of music referred as moods here -->
+                    <div class="radio-station-contents">
+
+                        <!-- genre-no1 -->
+                        <div class="mood-type">
+                            <div class="mood">
+                                <img src="images/genre4.jpg">
+                                <p class="mood-name">Workout</p>
+                            </div>
+                            <!-- genre-no2 -->
+                            <div class="mood">
+                                <img src="images/genre3.png">
+                                <p class="mood-name">Retro</p>
+                            </div>
+                            <!-- genre-no3 -->
+                            <div class="mood">
+                                <img src="images/genre1.png">
+                                <p class="mood-name">POP</p>
+                            </div>
+                            <!-- genre-no4 -->
+                            <div class="mood">
+                                <img src="images/genre2.jpg">
+                                <p class="mood-name">Romantic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second part of genre for various occations -->
+                    <div class="radio-station-options">
+                        <!-- occation -1 -->
+                        <div class="mood-detail">
+                            <div class="mood-option" id="occ-1">
+                                <img src="images/party.jpg">
+
+                            </div>
+                            <div class="occation">
+                                Party
+                            </div>
+
+                        </div>
+                        <!-- occation -2 -->
+                        <div class="mood-detail">
+                            <div class="mood-option" id="occ-2">
+                                <img src="images/party2.jpg">
+                            </div>
+                            <div class="occation">
+                                Electric
+                            </div>
+
+                        </div>
+                        <!-- occation -3 -->
+                        <div class="mood-detail">
+                            <div class="mood-option" id="occ-3">
+                                <img src="images/travel.jpg">
+                            </div>
+                            <div class="occation">
+                                Travel
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- end of radio station section -->
+                    <!--  -->
+                    <!-- beginning of latest english releases  -->
+                    <div class="latest-english" id="latest-english">
+                        <div class="section-heading">
+                            <h2>Latest English</h2>
+                        </div>
+                        <!-- song-1 with name image and date of release -->
+                        <div class="latest-content">
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images/english.jpg">
+                                </div>
+                                <h3>Me Too</h3>
+                                <p>sep 15, 2021</p>
+                            </div>
+                            <!-- song-2 with name image and date of release -->
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images/english1.jpg">
+                                </div>
+                                <h3>Westlife</h3>
+                                <p>aug 11, 2021</p>
+                            </div>
+                            <!-- song-3 with name image and date of release -->
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images/english2.png">
+                                </div>
+                                <h3>One Last Time</h3>
+                                <p>sep 29, 2021</p>
+                            </div>
+                            <!-- song-4 with name image and date of release -->
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images/english3.png">
+                                </div>
+                                <h3>Who Says</h3>
+                                <p>jul 08, 2021</p>
+                            </div>
+                            <!-- song-5 with name image and date of release -->
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images/english4.png">
+                                </div>
+                                <h3>Perfect</h3>
+                                <p>aug 26, 2021</p>
+                            </div>
+                            <!-- song-6 with name image and date of release -->
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images/english5.png">
+                                </div>
+                                <h3>I don't Care</h3>
+                                <p>jun 17, 2021</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- end of latest english release  -->
+                    <!--  -->
+                    <!-- beginning of latest hindi releases -->
+                    <div class="latest-hindi" id="latest-hindi">
+                        <div class="section-heading">
+                            <h2>Latest Hindi</h2>
+                        </div>
+                        <!-- song-1 with name image and date of release -->
+                        <div class="latest-content">
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images\hindi.jpg">
+                                </div>
+                                <h3>Ghungroo</h3>
+                                <p>jul 11, 2021</p>
+                            </div>
+                            <!-- song-2 with name image and date of release -->
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images\hindi6.jpg">
+                                </div>
+                                <h3>Coolie No.1</h3>
+                                <p>jun 18, 2021</p>
+                            </div>
+                            <!-- song-3 with name image and date of release -->
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images\hindi2.jpg">
+                                </div>
+                                <h3>Bhula Dunga</h3>
+                                <p>sep 16, 2021</p>
+                            </div>
+                            <!-- song-4 with name image and date of release -->
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images\hindi3.jpg">
+                                </div>
+                                <h3>Kuch Kuch</h3>
+                                <p>oct 13, 2021</p>
+                            </div>
+                            <!-- song-5 with name image and date of release -->
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images\hindi4.jpg">
+                                </div>
+                                <h3>Paani Paani</h3>
+                                <p>aug 15, 2021</p>
+                            </div>
+                            <!-- song-6 with name image and date of release -->
+                            <div class="content">
+                                <div class="content-image">
+                                    <img src="images\hindi5.jpg">
+                                </div>
+                                <h3>Dil Mera Blast</h3>
+                                <p>aug 26, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of latest release hindi -->
+            </aside>
+            <!-- end of section-1 -->
+            <!--  -->
+            <!--  -->
+            <!-- beginning of section-2 containing queue of songs -->
+            <aside class="section-2">
+                <div class="queue">
+                    <div class="section-heading">
+                        <h2>QUEUE</h2>
+                    </div>
+                    <!-- queue content id div containing all songs within itself -->
+                    <div class="queue-content">
+                        <!-- each queue-detail contain 1 song image , name , artist and icons among them 1 is heart and another is play-->
+
+                        <!-- song-1 -->
+                        <div class="queue-details">  
+                            <div class="queue-image">
+
+                                <img src="images/english.jpg">
+                            </div>
+                            <div class="queue-song">
+                                <h3>Me Too</h3>
+                                <p>
+                                    Meghan Trainer
+                                </p>
+                            </div>
+                            <div class="queue-icons">
+                                <i class="fas fa-play"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+
+                        </div>
+                        <!-- song-2 -->
+                        <div class="queue-details">
+                            <div class="queue-image">
+
+                                <img src="images/hindi.jpg">
+                            </div>
+                            <div class="queue-song">
+                                <h3>Ghungroo</h3>
+                                <p>
+                                    Arijit Singh
+                                </p>
+                            </div>
+                            <div class="queue-icons">
+                                <i class="fas fa-play"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- song-3 -->
+                        <div class="queue-details">
+                            <div class="queue-image">
+
+                                <img src="images/hindi2.jpg">
+                            </div>
+                            <div class="queue-song">
+                                <h3>Bhula Diya</h3>
+                                <p>
+                                    Darshan Rawal
+                                </p>
+                            </div>
+                            <div class="queue-icons">
+                                <i class="fas fa-play"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- song-4 -->
+                        <div class="queue-details">
+                            <div class="queue-image">
+
+                                <img src="images/english4.png">
+                            </div>
+                            <div class="queue-song">
+                                <h3>Perfect</h3>
+                                <p>
+                                    Ed Sheeren
+                                </p>
+                            </div>
+                            <div class="queue-icons">
+                                <i class="fas fa-play"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- song-5 -->
+                        <div class="queue-details">
+                            <div class="queue-image">
+
+                                <img src="images/latest3.jpg">
+                            </div>
+                            <div class="queue-song">
+                                <h3>Suna Hai</h3>
+                                <p>
+                                    Jubin Nautiyal
+                                </p>
+                            </div>
+                            <div class="queue-icons">
+                                <i class="fas fa-play"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- song-6 -->
+                        <div class="queue-details">
+                            <div class="queue-image">
+
+                                <img src="images/english2.png">
+                            </div>
+                            <div class="queue-song">
+                                <h3>One Last Time</h3>
+                                <p>
+                                    Ariana Grande
+                                </p>
+                            </div>
+                            <div class="queue-icons">
+                                <i class="fas fa-play"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- song-7 -->
+                        <div class="queue-details">
+                            <div class="queue-image">
+
+                                <img src="images/english1.jpg">
+                            </div>
+                            <div class="queue-song">
+                                <h3>My Love</h3>
+                                <p>
+                                    Westlife
+                                </p>
+                            </div>
+                            <div class="queue-icons">
+                                <i class="fas fa-play"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- song-8 -->
+                        <div class="queue-details">
+                            <div class="queue-image">
+
+                                <img src="images/english5.png">
+                            </div>
+                            <div class="queue-song">
+                                <h3>I Dont Care</h3>
+                                <p>
+                                    Ed Sheeren
+                                </p>
+                            </div>
+                            <div class="queue-icons">
+                                <i class="fas fa-play"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- song-9 -->
+                        <div class="queue-details">
+                            <div class="queue-image">
+
+                                <img src="images/hindi4.jpg">
+                            </div>
+                            <div class="queue-song">
+                                <h3>Pani Pani</h3>
+                                <p>
+                                    Badshaah
+                                </p>
+                            </div>
+                            <div class="queue-icons">
+                                <i class="fas fa-play"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- song-10 -->
+                        <div class="queue-details">
+                            <div class="queue-image">
+
+                                <img src="images/english3.png">
+                            </div>
+                            <div class="queue-song">
+                                <h3>Who Says</h3>
+                                <p>
+                                    Selena Gomez
+                                </p>
+                            </div>
+                            <div class="queue-icons">
+                                <i class="fas fa-play"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </aside>
+        </article>
+    </main>
+
+    <!-- end of section-2 -->
+    <!-- end of article-->
+    <!-- end of main -->
+    <!-- beginning of footer -->
+    <footer>
+        <!-- the footer contain music player with various icons song name song image and sliders -->
+        <!-- song-description contain image and name -->
+        <div class="song-description">
+            <h3>Perfect</h3>
+            <img src="/images/english4.png">
+        </div>
+        <!-- controllers contains icons for pause next previous random and repeat -->
+        <div class="controlers">
+            <div><span data-tooltip="play random"><i class="fas fa-random"></i></span></div>
+            <div><span data-tooltip-1="previous"><i class="fas fa-step-backward"></i></span></div>
+            <div><span data-tooltip-2="pause"><i class="fas fa-pause-circle"></i></span></div>
+            <div><span data-tooltip-3="next"><i class="fas fa-step-forward"></i></span></div>
+            <div><span data-tooltip-4="repeat"><i class="fas fa-redo"></i></span></div>
+        </div>
+        <!-- slider contain current time of song end time of song  and slider-->
+        <div class="slider">
+            <div id="start-time">0.33</div>
+            <input type="range" min="0" max="100" value="0" class="slider-1">
+            <div id="end-time">2.33</div>
+        </div>
+        <!-- player-icons contain volume and add to playlist icon -->
+        <div class="player-icons">
+            <div>
+                <span data-tooltip-5="Add to playlist"><i class="fas fa-list-ul"></i></span>
+            </div>
+            <div id="volume-slider">
+                <i class="fas fa-volume-up"></i>
+                <input type="range" min="0" max="100" value="0" style="margin-top:0px;">
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+</body>
+<html>
